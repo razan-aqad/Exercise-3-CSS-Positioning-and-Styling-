@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: rgb(209, 211, 212);
+    padding: 10px 150px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header nav{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+}
+header nav h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header nav p{
+    margin-top: 0;
+    color: rgb(163, 159, 159);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+header nav .navList ul{
+    list-style: none;
+}
+
+header nav .navList li{
+    display: inline;
+    margin-right: 8px;
+}
+header nav .navList li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+header nav .navList li a:hover{
+    color: yellow;
+}
+
+/* section2 */
+section.sec2{
+    background-color: white;
+    padding: 25px 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+section.sec2>div{
+    margin-top: 0;
+}
+section.sec2>div h2 , section.sec2>div p{
+    margin: 0;
+}
+section.sec2>div img{
+    border-radius: 50%;
+}
+section.sec2>div img{
+    margin-left: 45%;
+}
+
+
+/* section3 */
+section.sec3{
+    background-color: white;
+    padding: 1px 0 25px 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    padding-left: 40px;
+    width: 97%;
+    background-image: url("images/section3.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 30px;
+
+} 
+
+section.sec3 .btns{
+    background-color: rgba(244, 234, 234, 0.731);
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 95%;
+    height: 80px;
+}
+section.sec3 .btns ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 48px;
+
+}
+section.sec3 .btns li{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    background-color: green;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sec3 .btns ul li:hover {
+    transform: translateY(-8px);
+    transition: transform 0.2s ease;
+}
+
+.sec3 .btns ul li:active {
+    transform: translateY(8px);
+    transition: transform 0.2s ease;
+}
+
+
+section.sec3 .purple{
+    width: 210px;
+    height: 220px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(50, 47, 47);
+    position: absolute;
+    bottom: 150px;
+    left: 80px;
+    z-index: 999;
+    padding: 0 11px 10px 11px;
+}
+
+
+/* section4 */
+section.sec4{
+    background-color: white;
+    padding: 20px 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-top: ;
+}
+
+/* orange */
+section.sec4 .project .orange{
+    width: 200px;
+    padding: 2px 8px 80px 8px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+
+}
+section.sec4 .project .orange h3{
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+section.sec4 .project .orange p{
+    margin-top: 0;
+    line-height: 1;
+}
+
+
+/* blue */
+section.sec4 .project .blue{
+    width: 200px;
+    padding: 2px 8px 80px 8px;
+    background-color: rgb(50, 50, 207);
+    text-align: center;
+    border-radius: 8px;
+
+}
+section.sec4 .project .blue h3{
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+section.sec4 .project .blue p{
+    margin-top: 0;
+    line-height: 1;
+}
+
+/* gray */
+section.sec4 .project .gray{
+    width: 100%;
+    padding: 2px 8px 150px 8px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+
+}
+section.sec4 .project .gray h3{
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+section.sec4 .project .gray p{
+    margin-top: 0;
+    line-height: 1;
+}
+
+/* section5 */ 
+
+section.sec5{
+    background-color: rgb(209, 211, 212);
+    padding: 20px 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-top: ;
+    border: 1px solid gray;
+}
+section.sec5>div h2{
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+section.sec5>div p{
+    margin: 0;
+}
+section.sec5>div form input{
+    width: 99%;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    border: 0;
+} 
+section.sec5>div form textarea{
+    width: 99%;
+    height: 80px;
+    border: 0;
+}
+section.sec5>div form input:focus{
+    outline: none;
+    border: 2px solid rgb(89, 241, 89);
+}
+section.sec5>div form textarea:focus{
+    outline: none;
+    border: 2px solid rgb(89, 241, 89);
+}
+section.sec5>div form .btn{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border: 3px solid green;
+    color: green;
+    border-radius: 8px;
+    font-size: 15px;
+}
+section.sec5>div form .btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: rgb(59, 58, 58);
+    border-radius: 8px;
+    height: 50px;
+    padding: 12px 0 0 0;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+/* footer p{
+    display: inline-block;
+
+} */
+footer p .git , footer p .linked{
+    color: rgb(201, 201, 109);
+}
+footer i{
+    background-color: aqua;
+    position: fixed;
+    font-size: 30px;
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    right: 10px;
+    bottom: 25px;
+}
+
+
+
+
