@@ -3,11 +3,11 @@ body{
     background-color: rgb(209, 211, 212);
     padding: 10px 150px;
 }
-header{
+/* header{
     position: sticky;
     top: 0;
     z-index: 1000;
-}
+} */
 header nav{
     background-color: rgb(59, 58, 58);
     color: white;
@@ -273,34 +273,55 @@ section.sec5>div form .btn:hover{
     color: white;
 }
 
+
 /* footer */
-footer{
+footer {
     background-color: rgb(59, 58, 58);
     border-radius: 8px;
     height: 50px;
     padding: 12px 0 0 0;
     text-align: center;
     color: white;
-    cursor: pointer;
 }
-/* footer p{
-    display: inline-block;
-
-} */
 footer p .git , footer p .linked{
     color: rgb(201, 201, 109);
+    text-decoration: none;
 }
-footer i{
+footer p .git:hover , footer p .linked:hover{
+    color: white;
+}
+footer a.scroll-to-top {
     background-color: aqua;
     position: fixed;
     font-size: 30px;
-    width: 60px;
-    height: 30px;
-    display: inline-block;
-    padding: 8px;
+    width: 70px;
+    height: 50px; 
+    padding: 20px 0 0 0;
     border-radius: 8px;
     right: 10px;
     bottom: 25px;
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+footer a.scroll-to-project{
+    font-size: 77px;
+    position: fixed;
+    width: 70px;
+    height: 50px;
+    padding: 20px 0 0 0;
+    border-radius: 8px;
+    left: 20px;
+    bottom: 50px;
+    color: black;
+    text-decoration: none;
+}
+footer a.scroll-to-project:hover{
+    font-size: 87px;
+    left: 30px;
+    bottom: 60px;
 }
 
 
