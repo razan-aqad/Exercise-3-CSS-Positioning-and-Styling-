@@ -3,11 +3,6 @@ body{
     background-color: rgb(209, 211, 212);
     padding: 10px 150px;
 }
-/* header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-} */
 header nav{
     background-color: rgb(59, 58, 58);
     color: white;
@@ -130,20 +125,6 @@ section.sec3 .btns li{
 }
 
 
-section.sec3 .purple{
-    width: 210px;
-    height: 220px;
-    background-color: blueviolet;
-    border-radius: 8px;
-    text-align: center;
-    color: rgb(50, 47, 47);
-    position: absolute;
-    bottom: 150px;
-    left: 80px;
-    z-index: 999;
-    padding: 0 11px 10px 11px;
-}
-
 
 /* section4 */
 section.sec4{
@@ -154,7 +135,22 @@ section.sec4{
     border-radius: 8px;
     padding-left: 15px;
     margin-bottom: 30px;
-    margin-top: ;
+    position: relative;
+}
+
+/* purple */
+section.sec4 .project .purple{
+    width: 210px;
+    height: 220px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(50, 47, 47);
+    position: absolute;
+    bottom: 1032px;
+    left: 80px;
+    z-index: 999;
+    padding: 0 11px 10px 11px;
 }
 
 /* orange */
